@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+/*Main webpage properties on alle pages*/
+header {
+	border-bottom: 5px solid black;
+}
+
+body {
+	background-color: #FFF9EF;
+}
+
+h1 {
+	color: #010101;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 70px;
+	font-weight: 900;
+	text-align: center;
+}
+
+h3 {
+	color: #010101;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	font-size: 40px;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Main navigation properties*/
+.navigation {
+	color: #909090;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	margin: 70px;
+}
+
+.navigation:hover {
+	color:#010101;
+}
+
+
+/*Flow selector properties*/
+.flow-menu {
+	position: relative;
+	text-align: center;
+	top: 30px;
+}
+
+.flow {
+	text-align: center;
+	display: inline-block;
+	margin-top: 100px;
+	height: 200px;
+	padding: 0px 75px;
+}
+
+.flow a {
+	background-color: #010101;
+	color: #FFFFFF;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	margin: 10px;
+	padding: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.flow a:hover {
+	background-color: #909090;
+}
+
+
+
+/*About me paragraph properties*/
+.about-me {
+	color: #010101;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	width: 40%;
+	margin: auto;
+}
+
+
+/*CV button*/
+.cv-button {
+	width: 100%;
+}
+
+.cv-button a {
+	color: #FFFFFF;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 23px;
+	background-color: #010101;
+	text-align: center;
+	display: block;
+	margin: 80px auto;
+	width: 50px;
+	padding: 15px 25px;
+	border-radius: 4px;
+}
+.cv-button a:hover {
+	background-color: #909090;
+}
+
+
+/*Contact form*/
+.contact-form {
+	border-radius: 4px;
+	background-color: #909090;
+	padding: 20px;
+	margin: 80px auto;
+	width: 30%;
+}
+
+input[type=text], textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+	padding: 10px;
+	font-family: 'Segoe UI', sans-serif;
+	
+}
+
+input[type=email] {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+	padding: 10px;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+input[type=submit] {
+	background-color: #010101;
+	color: #FFFFFF;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+
+form p {
+	color: #FFFFFF;
+	font-family: 'Segoe UI', sans-serif; 
+}
+
+
+/*Flow 1 content*/
+.content-title {
+	color: #010101;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.flow-content {
+	font-family: 'Segoe UI', sans-serif;
+	text-align: center;
+	margin: 150px 0px;
+}
+.flow-content img {
+	border-radius: 1%;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.backtotop {
+	color: #FFFFFF;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 20px;
+	background-color: #010101;
+	text-align: center;
+	display: block;
+	margin: 80px auto;
+	width: 100px;
+	padding: 15px 25px;
+	border-radius: 4px;
+}
+
+.backtotop:hover {
+	background-color: #909090;
+}
+
+
+/*CV*/
+.cv {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.cv img {
+	border: 1px solid black;
+	border-radius: 1%;
+}
+
+
+/*Page indicator*/
+#portfolio {
+	color: #010101;
+}
+
+#about {
+	color: #010101;
+}
+
+#contact {
+	color: #010101;
+}

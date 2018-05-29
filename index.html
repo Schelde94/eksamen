@@ -5,30 +5,52 @@
 		<title>Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800" rel="stylesheet">
+		
+		<!-- loading jQuery from server -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<!-- loading jQuery plugin (https://github.com/flesler/jquery.scrollTo) -->	
+		<script type="text/javascript" src="scripts/jquery.scrollTo.min.js"></script>
+		<script type="text/javascript">
+		// the document.ready function, takes an anonymous function as argument
+		$(document).ready(function(){
+			
+		// implementing the scrollTO plugin
+		
+		$("#backbutton").click(function(e){
+			e.preventDefault();					
+			$(window).scrollTo(this.hash, 1000);
+		
+		});
+		
+		
+		// -> end document.ready	
+	});
+	
+</script>
 	</head>
 
 	<body>
-		<header>
+		<header id="top">
 			<h1>Sven Schelde</h1>
 			<!-- Main navigation bar -->
 			<nav>
 				<a class="navigation" id="project" href="#">Projekter</a>
 				<a class="navigation" href="om.html">Om mig</a>
-				<a class="navigation" href="">Kontakt</a>
+				<a class="navigation" href="kontakt.html">Kontakt</a>
 			</nav>
 		</header>
 		
 		
 		<div class="flowcontent">
-			<h4 class="flownumber">Flow #</h4>
+			<h4 class="flownumber">Flow 5</h4>
 			<div class="thumbnail">
-				<img src="billeder/maxresdefault.jpg" width="400px" alt=""/>
+				<img id="portfolio" src="billeder/portfolio3.PNG" width="400" alt=""/>
 				<div class="overlay">
 					</div>
 			</div>
 				<div class="flowtitel">
-					<h3>Semester Eksamensprojekt</h3>
-					<p>Kort flowbeskrivelse står skrevet her</p>
+					<h3>1. Semester Eksamensprojekt</h3>
+					<p>Et makeover af den første portfolio med alt indhold fra semesteret</p>
 				</div>
 				<a href="flow5.html">
 					<div class="overlay1">
@@ -37,15 +59,15 @@
 		
 		
 		<div class="flowcontent">
-			<h4 class="flownumber">Flow #</h4>
+			<h4 class="flownumber">Flow 4</h4>
 			<div class="thumbnail">
-				<img src="billeder/maxresdefault.jpg" width="400px" alt=""/>
+				<img src="billeder/sweetbot.PNG" width="400" alt=""/>
 				<div class="overlay">
 					</div>
 			</div>
 				<div class="flowtitel">
-					<h3>Semester Eksamensprojekt</h3>
-					<p>Kort flowbeskrivelse står skrevet her</p>
+					<h3>Sweetbot.design</h3>
+					<p>Første gruppeopgave - Hjemmesideløsning ud fra en styleguide </p>
 				</div>
 				<a href="flow4.html">
 					<div class="overlay1">
@@ -54,15 +76,16 @@
 		
 		
 		<div class="flowcontent">
-			<h4 class="flownumber">Flow #</h4>
+			<h4 class="flownumber">Flow 3</h4>
 			<div class="thumbnail">
-				<img src="billeder/maxresdefault.jpg" width="400px" alt=""/>
+				<img src="billeder/bygenapp.PNG" width="200" alt=""/>
+				<img src="billeder//bygenapp2.PNG" width="200" alt=""/>
 				<div class="overlay">
 					</div>
 			</div>
 				<div class="flowtitel">
-					<h3>Semester Eksamensprojekt</h3>
-					<p>Kort flowbeskrivelse står skrevet her</p>
+					<h3>Byg en app</h3>
+					<p>En prototype af en boligapp lavet i Adobe XD og ikoner i Ai</p>
 				</div>
 				<a href="flow3.html">
 					<div class="overlay1">
@@ -71,15 +94,15 @@
 		
 		
 		<div class="flowcontent">
-			<h4 class="flownumber">Flow #</h4>
+			<h4 class="flownumber">Flow 2</h4>
 			<div class="thumbnail">
-				<img src="billeder/maxresdefault.jpg" width="400px" alt=""/>
+				<img src="billeder/bygdinportoflio.PNG" width="400" alt=""/>
 				<div class="overlay">
 					</div>
 			</div>
 				<div class="flowtitel">
-					<h3>Semester Eksamensprojekt</h3>
-					<p>Kort flowbeskrivelse står skrevet her</p>
+					<h3>Byg din portfolio</h3>
+					<p>Min første portfolio lavet i HTML og CSS</p>
 				</div>
 				<a href="flow2.html">
 					<div class="overlay1">
@@ -88,20 +111,22 @@
 		
 		
 		<div class="flowcontent">
-			<h4 class="flownumber">Flow #</h4>
+			<h4 class="flownumber">Flow 1</h4>
 			<div class="thumbnail">
-				<img src="billeder/maxresdefault.jpg" width="400px" alt=""/>
+				<img src="billeder/dromdinportfolio.PNG" width="400" alt=""/>
 				<div class="overlay">
 					</div>
 			</div>
 				<div class="flowtitel">
-					<h3>Semester Eksamensprojekt</h3>
-					<p>Kort flowbeskrivelse står skrevet her</p>
+					<h3>Drøm din portfolio</h3>
+					<p>En prototype af min første portfolio lavet i Adobe XD</p>
 				</div>
 				<a href="flow1.html">
 					<div class="overlay1">
 					</div></a>
 		</div>
+		
+		<a class="tiltop" id="backbutton" href="#top">Til toppen</a>
 		
 		
 	</body>

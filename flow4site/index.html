@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Bot</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+	<!-- loading jQuery from server -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js">
+</script>
+<!-- loading jQuery plugin (https://github.com/flesler/jquery.scrollTo) -->	
+<script type="text/javascript" src="scripts/jquery.scrollTo.min.js"></script>
+<!-- scroll funktion-->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#nav a").click(function(e){
+			e.preventDefault();
+			$(window).scrollTo(this.hash, 1000);
+		});
+		$("#top a").click(function(e){
+			e.preventDefault();
+			$(window).scrollTo(this.hash, 1000);
+		});
+	});
+	</script>
+	
+</head>
+
+<body>
+
+    <header class="main-header">
+
+        <div class="container clearfix">
+		<img src="img/hotlogo.svg" alt="background" class="hot">
+
+            <ul class="main-nav" id="nav">
+                <li><a href="#hotbot">Hot Bot</a></li>
+				<li><a href="#secur">internet security</a></li>
+                <li><a href="#branding">branding</a></li>
+                <li><a href="#wd">Webdesign</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--/.main-header-->
+
+    <div class="banner">
+        <img class="logo" src="img/hotbot.png" alt="City">
+        <h1 class="headline">Sweetbot</h1>
+        <span class="tagline">The best e-commerce solution in decades.</span>
+    </div>
+
+    <!--/.banner-->
+    <div class="container clearfix">
+        <div class="secondary col">
+            <h2 id="wd">Webdesign!</h2>
+            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore v</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
+            <p>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.".</p>
+        </div>
+        <!--/.secondary-->
+
+        <div class="primary col">
+            <h2 id="branding">Branding</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+            
+        </div>
+        <!--/.primary-->
+
+        <div class="tertiary col">
+            <h2 id="secur">Internet security</h2>
+            <p><strong>Fed tagline: </strong>illo inventore ve. Ut enim adl eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui .</p>
+            <p><strong>Fed tagline</strong>illo inventore ve. Ut enim adl eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui .</p>
+            <p><strong>Fed tagline </strong>illo inventore ve. Ut enim adl eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui </p>
+        </div>
+        <!--/.tertiary-->
+		
+		<div class="primary col">
+          <h2 id="hotbot">Hot Bot</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			<div class="ikon">
+			<img class="icon" src="img/shop.png" alt="shop icon"/>
+			<p>Shopping kart icon</p>
+			<img class="icon" src="img/delivery.png" alt="delivery icon"/>
+			<p>Delivery icon</p>
+		</div>
+		</div>
+		
+	</div>
+		<p id="top"><a href="#nav">Back to top</a></p>
+    <footer class="main-footer clearfix">
+        <span>&copy;2017 SWEETBOT.DESIGN</span>
+    </footer>
+
+</body>
+
+</html>
